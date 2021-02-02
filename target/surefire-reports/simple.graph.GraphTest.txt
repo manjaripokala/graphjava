@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: simple.graph.AppTest
+Test set: simple.graph.GraphTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in simple.graph.AppTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in simple.graph.GraphTest

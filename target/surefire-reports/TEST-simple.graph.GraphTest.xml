@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="simple.graph.AppTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="simple.graph.GraphTest" time="0.074" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,5 +53,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="simple.graph.AppTest" time="0"/>
+  <testcase name="testDirectedObject" classname="simple.graph.GraphTest" time="0.006"/>
+  <testcase name="testDirectedString" classname="simple.graph.GraphTest" time="0"/>
+  <testcase name="testDirectedInteger" classname="simple.graph.GraphTest" time="0.001"/>
+  <testcase name="testUnDirectedInteger" classname="simple.graph.GraphTest" time="0.002"/>
+  <testcase name="testDirectedInteger2" classname="simple.graph.GraphTest" time="0.001"/>
+  <testcase name="testUnDirectedInteger2" classname="simple.graph.GraphTest" time="0.001"/>
 </testsuite>
